@@ -8,12 +8,13 @@ class Foo:
         self.value = value
 
     def generator(self):
+        myvalue = self.value
         while True:
-            yield self.value
-            if type(self.value) is int:
-                self.value += 1
-            elif type(self.value) is str:
-                self.value = self.value[1:] + self.value[0]
+            yield myvalue
+            if type(myvalue) is int:
+                myvalue += 1
+            elif type(myvalue) is str:
+                myvalue = myvalue[1:] + myvalue[0]
 
     def __setattr__(self, name, value):
         if name == 'value':
