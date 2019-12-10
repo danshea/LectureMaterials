@@ -45,7 +45,7 @@ class Foo:
 # pytest test cases
 def test_None_gen():
     '''
-    Test that a None genrator yields None
+    Test that a None generator yields None
     '''
     foo = Foo()
     assert next(foo.generator()) == None

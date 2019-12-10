@@ -1,1 +1,5 @@
-INFO:root:foo was imported.
+2019-12-11 08:32:04,281 DEBUG: The foo module was imported.
+2019-12-11 08:32:04,281 INFO: The foo module was imported.
+2019-12-11 08:32:04,281 WARNING: The foo module was imported!
+2019-12-11 08:32:04,281 ERROR: Ooops. The foo module was imported!
+2019-12-11 08:32:04,282 CRITICAL: Agh! The foo module was imported!
